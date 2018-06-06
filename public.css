@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#b41e10;
+	font-size:18px;
+	margin:0 auto;
+	font-family:"楷体";}
+.clear{
+	clear:both;}
+.lf{
+	float:left;}
+.rt{
+	float:right;}
+ul,li,p,dl,dt,dd{
+	list-style:none;
+	margin:0 auto;
+	padding:0;}
+a{
+	color:#fff;
+	text-decoration:none;}
+a:hover{
+	color:red;}
+.top,.nav_index,#nav,#banner,#content,#footer{
+	/*border:1px solid #FF0;*/
+	font-size:16px;
+	color:#fff;
+	margin:0 auto;
+	width:960px;}
+.top>img{margin-left:10px;}
+img{
+	vertical-align:bottom;
+	}
+.nav_index{
+	text-align:right;
+	padding-right:60px;}
+.nav_index a{
+	font-size:14px;
+	text-decoration:none;
+	color:#fff;}
+.nav_index a span{
+	color:#ead0ce;}
+#nav>ul{
+	height:44px;
+	width:960px;
+	background:url(../image/small/menu-bg.gif) no-repeat center center;}
+#nav>ul>li{
+	float:left;
+	height:44px;
+	}
+#nav_li1{
+	margin-left:30px;}
+#nav>ul>li a:hover{
+	display:inline-block;
+	height:44px;
+	background:url(../image/small/menu-btn.gif) no-repeat center center;}
+#nav>ul>li a{
+	padding:0 30px;
+	font-size:18px;
+	line-height:44px;
+	font-weight:bold;
+	}
+#banner img{
+	border:0px solid #b41e10;
+	border-radius:10px;
+	}
+#content{
+	overflow:hidden;}
+#content_left_box .content_left_box1,#content_left_box .content_left_box2{
+	width:260px;
+	background-color:#96160b;
+	border-radius:10px;
+	margin-top:20px;
+	padding-bottom:20px;
+	border:5px solid #97170c;
+	}
+#content_left_box .content_left_box1>div,#content_left_box .content_left_box2>div{
+	padding:20px 20px 10px 20px;
+	width:220px;}
+#content_left_box .content_left_box1>div p,#content_left_box .content_left_box2 p{
+	background-color:#c98a84;
+	border-radius:10px;
+	line-height:30px;
+	padding:0 10px;
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;}
+#content_left_box .content_left_box1>div p span,#content_left_box .content_left_box2 p span{
+	color:#fcff00;
+	font-size:18px;
+	padding-right:10px;}
+#content_left_box .content_left_box1 p,#content_left_box .content_left_box1 h4{
+	padding-left:20px;
+	line-height:35px;
+	margin-bottom:0px;
+	color:#ead0ce;
+	}
+#content_left_box .content_left_box1 h4{
+	line-height:20px;
+	margin:10px 0;
+	}
+#content_left_box .content_left_box2 img{
+	margin-top:20px;}
+	
+	
+#line{
+	width:980px;
+	border-top:1px solid #660a03;
+	border-bottom::1px solid #c62e23;
+	margin:20px auto;
+	}
+#content_right_box{
+	width:660px;
+	margin-top:20px;
+	}
+#content_right_box .content_right_box1{
+	border:5px solid #97170c;
+	background-color:#96160b;
+	border-radius:10px;
+	padding:20px 20px;
+	height:380px;
+	}
+#content_right_box>#div2{
+	display:none;}
+#content_right_box>#div3{
+	display:none;}
+#content_right_box>#div4{
+	display:none;}
+#content_right_box>#div5{
+	display:none;}
+#content_right_box .jiuzheng{
+	height:350px;
+	}
+#content_right_box .sever{
+	height:430px;}
+#content_right_box .content_right_box1 div{
+	
+	margin-bottom:10px;
+	overflow:hidden;
+	}
+#content_right_box .content_right_box1 div dl{
+	float:left;}
+#content_right_box .content_right_box1 div dl dt,
+#content_right_box .content_right_box1 div dl dd{
+	border:1px solid #F03;
+	width:190px;
+	text-align:center;
+	padding:5px;
+	}
+#content_right_box .content_right_box1 div p{
+	border-bottom:1px solid #660a03;
+	line-height:30px;
+	font-weight:bold;
+	}
+#content_right_box .content_right_box2 p{
+	margin:10px;
+	margin-left:20px;
+	line-height:30px;
+	font-weight:bold;}
+#content_right_box .content_right_box1 div p span,#content_right_box .content_right_box2 p span{
+		color:#fcff00;
+		margin-right:10px;
+		}
+#content_right_box .content_right_box1>p{
+	line-height:30px;
+	font-size:16px;
+	color:#ead0ce;
+	}
+#content_right_box .content_right_box2{
+	margin-top:20px;
+	border-radius:10px;
+	border:1px solid #8e1908;}
+#content_right_box .content_right_box2 div{
+	border-radius:10px;
+	border:1px solid #d23d36;
+	height:220px;
+	position:relative;
+	overflow:hidden;
+	}
+#content_right_box .content_right_box2 div ul{
+	
+	position:absolute;
+	width:850px;}
+#content_right_box .content_right_box2 div ul li{
+	float:left;}
+#content_right_box .content_right_box2 div ul li img{
+	margin-left:10px;
+	border:1px solid #fff;}
+#footer p{
+	margin-bottom:20px;
+	font-size:14px;
+	font-family:"宋体", "新宋体", "隶书", "楷体";
+	text-align:center;}
+
+
